@@ -71,7 +71,7 @@ print out_put
 import paramiko
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh.connect( hostname = '172.19.134.2' , port = 2022 , username = 'root', password = 'g0g04ABS' )
+ssh.connect( hostname = '151.19.134.2' , port = 2022 , username = 'root', password = 'g0g04ABS' )
 #stdin, stdout, stderr =ssh.exec_command('uptime')
 #abcd=stdout.read()
 #print abcd
