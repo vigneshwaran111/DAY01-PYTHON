@@ -1,10 +1,3 @@
-
-file = open('sithiqu1.txt')
-contents = file.read()
-replaced_contents = contents.replace('sithiqu', 'yahaya')
-print replaced_contents
-file.close()
-
 f = open('sithiqu1.txt','a+')
 print f.readline()
 print f.tell()
